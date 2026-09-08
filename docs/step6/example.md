@@ -101,7 +101,7 @@ main:
 
 4. 后续 stage-4 时，你需要一个机制来检查 break/continue 语句是否在一个循环内。这可以通过修改 namer/typer 中的对应结点来实现。另外，别忘了循环本身也是一个作用域！
 
-5. 后续如果你选做“全局变量”部分，可以在 Namer 和 Typer 的 transform 方法中先将全局作用域加入栈底，再往上才是 visitFunction 的函数作用域。
+5. 后续完成“全局变量”部分时，可以在 Namer 和 Typer 的 transform 方法中先将全局作用域加入栈底，再往上才是 visitFunction 的函数作用域。
 
 # 思考题
 1. 请画出下面 MiniDecaf 代码的控制流图（你应当在 TAC 层面进行基本块划分，并据此绘制控制流图）。

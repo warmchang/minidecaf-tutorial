@@ -80,7 +80,7 @@
   * [通过例子学习](docs/step9/example.md)
   * [规范](docs/step9/spec.md)
 
-## Stage5（升级）：全局变量和数组
+## Stage5：全局变量和数组
 
 * step10：全局变量
   * [实验要求](docs/step10/intro.md)
@@ -97,9 +97,7 @@
   * [通过例子学习](docs/step12/example.md)
   * [规范](docs/step12/spec.md)
 
-## Stage6（升级）：寄存器分配与代码优化
-
-* [选做二说明](docs/step13/readme.md)
+## Stage6：寄存器分配与代码优化
 
 * step13：寄存器分配算法改进
   * [实验要求](docs/step13/intro.md)
